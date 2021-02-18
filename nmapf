@@ -1,0 +1,4 @@
+#!/bin/bash
+#"Full" all ports scan of target
+
+/usr/bin/nmap -sV -A -p- --open $@
